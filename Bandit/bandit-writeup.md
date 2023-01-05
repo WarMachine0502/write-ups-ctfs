@@ -22,4 +22,4 @@ This level marks the beginning of the Bandit wargame.
 
 We use SSH to connect to the host.
 
-![alt](https://drive.google.com/file/d/1ZDal2HSQ4Uo1wcZq9djgvsTkKOuJshyd/view?usp=sharing)
+![alt](https://lh4.googleusercontent.com/uhLTb1_L6z0gPBMARl-vzKJyH7DXFQjKBpJksg7VyounmgXYSnMUXMs4l5vF4P8qOsI=w2400)
