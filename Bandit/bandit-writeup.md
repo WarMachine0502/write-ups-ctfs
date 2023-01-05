@@ -4,6 +4,8 @@ The Bandit cyber-security challenge is aimed at absolute beginners and is offere
 ---
 <br/>
 
+The Bandit [docs](https://overthewire.org/wargames/bandit/bandit0.html) have given the following host address for proper connection to the server.
+
 > host : bandit.labs.overthewire.org  
 > port : 2220  
 
@@ -206,11 +208,11 @@ Following this, we remove the extension from the file and check its format.
 
 ![screenshot_of_solution](https://lh4.googleusercontent.com/5ms8rtp87UkzaIHiB4D_Eko-Qgc0BojJxc0amAl-UUhy8T-1WH-eu-s5TPq2WLjNjSo=w2400)
 
-The file comes out to be a ``gzip`` file, hence we use the ``mv`` command to rename and change its extension, and then decompress it. We then check the format of the file ``data1`` obtained.
+The file comes out to be a ``gzip`` file, hence we use the ``mv`` command to rename and change its extension, and then decompress it. We then check the format of the ``data1`` file obtained.
 
 ![screenshot_of_solution](https://lh6.googleusercontent.com/Ezp7vCQU04lkwTV_WQxtgYNWEO0mrXSy-rM_gpCnWCuPKL8xc8ROQNGiUW7YwiN_jHQ=w2400)
 
-``data1`` turns out to be a ``bzip2`` file, hence we again use the ``mv`` command to rename and change its extension, and then decompress it. We then check the format of the file ``data2`` obtained, which turns out to be another ``gzip`` file.
+``data1`` turns out to be a ``bzip2`` file, hence we again use the ``mv`` command to rename and change its extension, and then decompress it. We then check the format of the ``data2`` file obtained, which turns out to be another ``gzip`` file.
 
 ![screenshot_of_solution](https://lh4.googleusercontent.com/yvWM1OHoAaTopNowmOWYZkxWEpQP0-FiVmTW5TTG5KfMiXloJsqe0C3Ssywxzk0RG5M=w2400)
 
