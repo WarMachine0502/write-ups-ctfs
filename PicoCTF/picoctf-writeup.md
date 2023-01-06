@@ -4,8 +4,14 @@
 
 ---
 
+## Tools Used
 
-## Web Exploitation
+* sample link
+
+---
+
+
+### Web Exploitation
 
 
 * GET aHEAD  
@@ -58,7 +64,7 @@ The challenge description leads us to a website
 ---
 
 
-## Cryptography
+### Cryptography
 
 
 * Mod 26
@@ -74,7 +80,7 @@ The challenge description leads us to a website
 ---
 
 
-## Reverse Engineering
+### Reverse Engineering
 
 
 * Transformation
@@ -88,7 +94,7 @@ The challenge description leads us to a website
 ---
 
 
-## Forensics
+### Forensics
 
 
 * Information
@@ -107,10 +113,15 @@ The challenge description leads us to a website
 
 ---
 
-## General Skills
+### General Skills
 
 
-* Obedient Cat
+* Obedient Cat  
+This challenge has a single file named `flag` to be downloaded. Simply running `cat flag` gives us the flag.
+
+>> flag: picoCTF{s4n1ty_v3r1f13d_4a2b35fd}
+
+![screenshot_of_solution](https://lh4.googleusercontent.com/O8VLq-2gH3pLd-ZIrFN45d6dV3hb0TYw9anAZNGc6lA4Gn9UU5LKlNSLs1JbwcjtboQ=w2400)
 
 * Python Wrangling
 
@@ -156,51 +167,9 @@ The challenge description leads us to a website
 
 ---
 
-## Binary Exploitation
+### Binary Exploitation
 
 
-* Obedient Cat
-
-* Python Wrangling
-
-* Wave a flag
-
-* Nice netcat
-
-* Static ain't always noise
-
-* Tab, Tab, Attack
-
-* Magikarp Ground Mission
-
-* Lets Warm Up
-
-* Warmed Up
-
-* 2Warm
-
-* what's a net cat?
-
-* strings it
-
-* Bases
-
-* First Grep
-
-* Codebook
-
-* convertme.py
-
-* fixme1.py
-
-* fixme2.py
-
-* Glitch Cat
-
-* HashingJobApp
-
-* PW Crack 1
-
-* PW Crack 2
+* nothing
 
 ---
