@@ -4,11 +4,9 @@
 
 ---
 
-</br>
 
 ## Web Exploitation
 
-<br/>
 
 * GET aHEAD  
 
@@ -59,11 +57,9 @@ The challenge description leads us to a website
 
 ---
 
-</br>
 
 ## Cryptography
 
-<br/>
 
 * Mod 26
 
@@ -77,11 +73,9 @@ The challenge description leads us to a website
 
 ---
 
-</br>
 
 ## Reverse Engineering
 
-<br/>
 
 * Transformation
 
@@ -92,11 +86,10 @@ The challenge description leads us to a website
 * vault-door-training
 
 ---
-</br>
+
 
 ## Forensics
 
-<br/>
 
 * Information
 
@@ -113,11 +106,9 @@ The challenge description leads us to a website
 * extensions
 
 ---
-</br>
 
 ## General Skills
 
-<br/>
 
 * Obedient Cat
 
@@ -164,11 +155,9 @@ The challenge description leads us to a website
 * PW Crack 2
 
 ---
-</br>
 
 ## Binary Exploitation
 
-<br/>
 
 * Obedient Cat
 
