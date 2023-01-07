@@ -6,8 +6,12 @@
 
 ## **Tools Used**
 
-* sample link
-
+* [https://www.dcode.fr/caesar-cipher](https://www.dcode.fr/caesar-cipher)
+* [https://www.dcode.fr/vigenere-cipher](https://www.dcode.fr/vigenere-cipher)
+* [https://hexed.it/](https://hexed.it/)
+* [https://www.boxentriq.com/code-breaking/cipher-identifier#base64](https://www.boxentriq.com/code-breaking/cipher-identifier#base64)
+* [https://onlineasciitools.com/convert-decimal-to-ascii](https://onlineasciitools.com/convert-decimal-to-ascii)
+* [https://morsecode.world/international/decoder/audio-decoder-adaptive.html](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
 ---
 
 ### **General Skills**
@@ -40,7 +44,6 @@ We have got a simple address to connect to using netcat, hence we run ``nc mercu
 >> flag: picoCTF{g00d_k1tty!_n1c3_k1tty!_3d84edc8}
 
 ![screenshot_of_solution](https://lh5.googleusercontent.com/9qMIGNSV_6kflKKMCKADw8GhVes6EE5yKHSQLO_a_rk0IhLZD0zi6EXLbzFC5pmyFr0=w2400)
-
 ![screenshot_of_solution](https://lh3.googleusercontent.com/NXWgKOIhSSqVyLpPvDGiS9zo68gezavPTT53B2-qhH_f_OgfZA2jBnoii_VFifuILis=w2400)
 
 * **Static ain't always noise**  
@@ -127,7 +130,7 @@ is 3 and so on. Deciphering this gives the flag.
 We have got an encrypted ciphertext ``UFJKXQZQUNB``, a key ``SOLVECRYPTO`` along with a table, which is just a classic example of a Vigenère Cipher.
 
 ![screenshot of table](https://lh3.googleusercontent.com/spMQS464g6e_qBNOPrTUgcoQCCnOqYT-r5WdOCYxi3CiN9KRTJW-N_n4GUIpIveHxXA=w2400)
-We can use any [online cipher](https://www.dcode.fr/vigenere-cipher) to decrypt and obtain the flag.
+We can use any [online Vigenère Cipher](https://www.dcode.fr/vigenere-cipher) to decrypt and obtain the flag.
 
 
 >> flag: picoCTF{CRYPTOISFUN}
@@ -166,11 +169,24 @@ To convert the waveform to text we can use any [online tool](https://morsecode.w
 We have got another example of the Vigenère Cipher with the ciphertext in the file `cipher.txt` and the key `CYLAB`.
 
 ![screenshot of ciphertext](https://lh6.googleusercontent.com/9RtGrmZWveYF14D_tmgi9ld8LvCVPHa9UBd56-qRj38Mym_p5L5MTNQGsuXj_eVQTFg=w2400)
-We can use any [online Caesar Cipher](https://www.dcode.fr/vigenere-cipher) to decrypt and obtain the flag.
+We can use any [online Vigenère Cipher](https://www.dcode.fr/vigenere-cipher) to decrypt and obtain the flag.
 
 >> flag: picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_2951a89h}
 
 ![screenshot of solution](https://lh6.googleusercontent.com/9BxrnHzkyvv8ECDn8wtSO1IWh9Ynko98lR1wJUypm5b5vDSkJKJRAqbCC4pcReoFje0=w2400)
+
+---
+
+### Reverse Engineering
+
+
+* Transformation
+
+* keygenme-py
+
+* crackme-py
+
+* vault-door-training
 
 ---
 
@@ -225,24 +241,6 @@ The challenge description leads us to a website
 * Irish-Name-Repo 3
 
 ---
-
-
-
-
-
-### Reverse Engineering
-
-
-* Transformation
-
-* keygenme-py
-
-* crackme-py
-
-* vault-door-training
-
----
-
 
 ### Forensics
 
