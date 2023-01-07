@@ -131,6 +131,7 @@ is 3 and so on. Deciphering this gives the flag.
 We have got an encrypted ciphertext ``UFJKXQZQUNB``, a key ``SOLVECRYPTO`` along with a table, which is just a classic example of a Vigenère Cipher.
 
 ![screenshot of table](https://lh3.googleusercontent.com/spMQS464g6e_qBNOPrTUgcoQCCnOqYT-r5WdOCYxi3CiN9KRTJW-N_n4GUIpIveHxXA=w2400)
+
 We can use any [online Vigenère Cipher](https://www.dcode.fr/vigenere-cipher) to decrypt and obtain the flag.
 
 
@@ -149,6 +150,7 @@ This challenge is also a classic example of ROT13.
 We have got a file name ``ciphertext`` which has the text `picoCTF{ynkooejcpdanqxeykjrbdofgkq}` inside. 
 
 ![screesnhot of ciphertext](https://lh3.googleusercontent.com/Dw0mhEVEMYFMJGdXYqRqeheGt7Nb7Rn0nWtBpVf6pu5o1R9lEJhS_yKQ-kFTqI8-XJo=w2400)
+
 Since the challenge clearly references the use of a Caesar Cipher, we can use any [online Caesar Cipher Tool](https://www.dcode.fr/caesar-cipher) to decrypt the message
 
 >> flag: picoCTF{crossingtherubiconvfhsjkou}
@@ -170,6 +172,7 @@ To convert the waveform to text we can use any [online tool](https://morsecode.w
 We have got another example of the Vigenère Cipher with the ciphertext in the file `cipher.txt` and the key `CYLAB`.
 
 ![screenshot of ciphertext](https://lh6.googleusercontent.com/9RtGrmZWveYF14D_tmgi9ld8LvCVPHa9UBd56-qRj38Mym_p5L5MTNQGsuXj_eVQTFg=w2400)
+
 We can use any [online Vigenère Cipher](https://www.dcode.fr/vigenere-cipher) to decrypt and obtain the flag.
 
 >> flag: picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_2951a89h}
@@ -219,8 +222,7 @@ We get a file named `crackme-py` with the following content.
 
 ![screenshot of file_contents](https://lh5.googleusercontent.com/OygKzH1AKCnDAUg-l5btpVtQ9OCi-kpB5tzAkhpm-g-vl_qhiNksGVBsesUIRtVcw9I=w2400)
 
-Upon examing the code, we can see that there is a ciphertext ``bezos_cc_secret = "A:4@r%uL`M-^M0c0AbcM-MFE02fh3e4a5N"
-`` as well as the use of ROT47 in the program. We can use any [online ROT47 Decryption Tool](https://www.dcode.fr/rot-47-cipher) to decrypt the cipher and get the flag.
+Upon examing the code, we can see that there is a ciphertext ``bezos_cc_secret = "A:4@r%uL`M-^M0c0AbcM-MFE02fh3e4a5N"`` as well as the use of ROT47 in the program. We can use any [online ROT47 Decryption Tool](https://www.dcode.fr/rot-47-cipher) to decrypt the cipher and get the flag.
 
 >> flag: picoCTF{1|\/|_4_p34|\|ut_a79b6c2d}
 
