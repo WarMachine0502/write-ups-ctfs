@@ -102,59 +102,6 @@ This challenge requires us to convert the hexadecimal value ``0x3D`` to decimal.
 
 ---
 
-### Web Exploitation
-
-
-* GET aHEAD  
-
-* Cookies  
-The challenge description leads us to a website 
-
-* Insp3ct0r
-
-* Scavenger Hunt
-
-* where are the robots
-
-* logon
-
-* dont-use-client-side
-
-* It is my Birthday
-
-* login
-
-* Includes
-
-* Inspect HTML
-
-* Local Authority
-
-* Search Source
-
-* caas
-
-* Client-side-again
-
-* Web Gauntlet
-
-* Power Cookie
-
-* Roboto Sans
-
-* notepad
-
-* Irish-Name-Repo 1
-
-* SQLiLite
-
-* Irish-Name-Repo 2
-
-* Irish-Name-Repo 3
-
----
-
-
 ### **Cryptography**
 
 
@@ -226,6 +173,61 @@ We can use any [online Caesar Cipher](https://www.dcode.fr/vigenere-cipher) to d
 ![screenshot of solution](https://lh6.googleusercontent.com/9BxrnHzkyvv8ECDn8wtSO1IWh9Ynko98lR1wJUypm5b5vDSkJKJRAqbCC4pcReoFje0=w2400)
 
 ---
+
+### Web Exploitation
+
+
+* GET aHEAD  
+
+* Cookies  
+The challenge description leads us to a website 
+
+* Insp3ct0r
+
+* Scavenger Hunt
+
+* where are the robots
+
+* logon
+
+* dont-use-client-side
+
+* It is my Birthday
+
+* login
+
+* Includes
+
+* Inspect HTML
+
+* Local Authority
+
+* Search Source
+
+* caas
+
+* Client-side-again
+
+* Web Gauntlet
+
+* Power Cookie
+
+* Roboto Sans
+
+* notepad
+
+* Irish-Name-Repo 1
+
+* SQLiLite
+
+* Irish-Name-Repo 2
+
+* Irish-Name-Repo 3
+
+---
+
+
+
 
 
 ### Reverse Engineering
