@@ -9,12 +9,12 @@ Challenges have been divided into multiple domains as given below, to facilitate
 
 |Domain|Writeup|
 |----|----|
-|Binary Exploitation|[binary-exploitation.md]()|
-|Cryptography|[cryptography.md]()|
-|Forensics|[forensics.md]()|
-|General Skills|[general-skills.md]()|
-|Reverse Engineering|[reverse-engineering.md]()|
-|Web Exploitation|[web-exploitation.md]()|
+|Binary Exploitation|[binary-exploitation.md](https://github.com/WarMachine0502/write-ups-ctfs/blob/main/PicoCTF/binary-exploitation.md)|
+|Cryptography|[cryptography.md](https://github.com/WarMachine0502/write-ups-ctfs/blob/main/PicoCTF/cryptography.md)|
+|Forensics|[forensics.md](https://github.com/WarMachine0502/write-ups-ctfs/blob/main/PicoCTF/forensics.md)|
+|General Skills|[general-skills.md](https://github.com/WarMachine0502/write-ups-ctfs/blob/main/PicoCTF/general-skills.md)|
+|Reverse Engineering|[reverse-engineering.md](https://github.com/WarMachine0502/write-ups-ctfs/blob/main/PicoCTF/reverse-engineering.md)|
+|Web Exploitation|[web-exploitation.md](https://github.com/WarMachine0502/write-ups-ctfs/blob/main/PicoCTF/web-explotation.md)|
 
 ---
 
