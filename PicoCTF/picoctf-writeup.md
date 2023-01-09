@@ -31,3 +31,4 @@ Challenges have been divided into multiple domains as given below, to facilitate
 * [https://ncviewer.com/](https://ncviewer.com/)
 
 * [https://emn178.github.io/online-tools/base64_decode.html](https://emn178.github.io/online-tools/base64_decode.html)
+* [https://www.dcode.fr/cipher-identifier](https://www.dcode.fr/cipher-identifier)

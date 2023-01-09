@@ -147,7 +147,7 @@ Here, we can see that the programs checks the string passed with an `encodedkey 
 ![screenshot of solution](https://lh3.googleusercontent.com/r751RQl3kkx9tI07nqEhB0llqhFp6tyliCpSh6_Tm5fWYeJOzxvHVL-KFWr1mrtPjE0=w2400)
 
 * **GDB Test Drive**  
-This challenge is simple enough. Just executing the `gdbme` file using the GNU Debugger and executing the commands giben in the challenge gives us the required flag to pass the challenge.
+This challenge is simple enough. Just executing the `gdbme` file using the GNU Debugger and executing the commands given in the challenge gives us the required flag to pass the challenge.
 
 >> flag: picoCTF{d3bugg3r_dr1v3_7776d758}
 
