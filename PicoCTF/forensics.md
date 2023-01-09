@@ -18,16 +18,16 @@ Since this challenge references Matryoshka Dolls, we can assume that there are n
 
 >> flag: picoCTF{bf6acf878dcbd752f4721e41b1b1b66b}
 
-![screenshot of solution](https://lh4.googleusercontent.com/BVhJpcDXO8QDEhvq1lb0bR5W_G1oV3zG9YwspLFXn6H8onESHERWR2vLX_N5egGIRiQ=w2400)
+![screenshot of solution](https://lh6.googleusercontent.com/UtfF9EGbJl6nmSCqI-J0OUahLdVAdzSuQoz1tcQGgChMl6zSykJMRl7lXVAd_w0W_Xs=w2400)
 
-* Glory of the Garden  
+* **Glory of the Garden**  
 Since the hints told us to explore an hex editor, I uploaded the file to [this hex editor](https://hexed.it/) and searched for `picoCTF{`, which highlighted the hidden flag.
 
 >> flag: picoCTF{more_than_m33ts_the_3y3eBdBd2cc}
 
 ![screenshot of solution](https://lh6.googleusercontent.com/5Zf62xS0zD4jwwuJRrqOJxFhC87cdFhIi54DBmq5_oOyK95m_Z0Zrj73JwVTJhBbWeM=w2400)
 
-* Wireshark doo dooo do doo...  
+* **File types**  
 dijnidvj
 
 >> flag: 
