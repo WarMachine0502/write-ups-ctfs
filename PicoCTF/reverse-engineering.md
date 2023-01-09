@@ -106,7 +106,7 @@ class VaultDoor1 {
 }
 ```
 
-In the later half of the file, we can clearly deduce that the function `charAt()` is clearly used to reference the characters in the flag out of order. Hence we can simply assemble the flag in the correct order and pass the challenge.
+In the later half of the file, we can clearly deduce that the function `charAt()` is clearly used to reference the characters in the flag, albeit out of order. Hence we can simply assemble the characters of the flag in the correct order and pass the challenge.
 
 >> flag: picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_75092e}
 
@@ -134,3 +134,21 @@ The actual content was more than a 1000 lines long, so I tried googling the firs
 >> flag: picoCTF{num3r1cal_c0ntr0l_e7749028}
 
 ![screenshot of solution](https://lh3.googleusercontent.com/mr1hn_d8NpUoh1PfI7esz_9-euCaH9vAJd9ruyS_Qz69x1LjiYgJ68LDXKJ3J1Jav2M=w2400)
+
+* **Safe Opener**  
+We get a Java file named `SafeOpener.java` with the following contents.
+
+![screenshot of file_contents](https://lh3.googleusercontent.com/n88yF0e2MPDCU0fRj5ppmEoHMOrrwCWZ6QHWDVgKFO2nxSbDzuMD77o1o2VeIDL9JZw=w2400)
+
+Here, we can see that the programs checks the string passed with an `encodedkey = cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz`, which appears to be a `base64` encoded string. Deciphering the string using any [online Base64 deocder](https://emn178.github.io/online-tools/base64_decode.html) to get the flag.
+
+>> flag: picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}
+
+![screenshot of solution](https://lh3.googleusercontent.com/r751RQl3kkx9tI07nqEhB0llqhFp6tyliCpSh6_Tm5fWYeJOzxvHVL-KFWr1mrtPjE0=w2400)
+
+* **GDB Test Drive**  
+This challenge is simple enough. Just executing the `gdbme` file using the GNU Debugger and executing the commands giben in the challenge gives us the required flag to pass the challenge.
+
+>> flag: picoCTF{d3bugg3r_dr1v3_7776d758}
+
+![screenshot of solution](https://lh4.googleusercontent.com/sRqwgvAe_fV-ExmTjmdMQd7pYUCQBh_HESa70bEDK-SFx0i57d4HcZrzQ7PouGuvggU=w2400)
